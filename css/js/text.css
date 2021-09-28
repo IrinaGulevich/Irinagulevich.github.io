@@ -1,0 +1,38 @@
+ body{
+     padding: 50px;
+     font-family: Arial, sans-serif;
+ }
+
+.main_block{
+ 	border: 2px solid cyan;
+ 	max-width: 800px;
+ 	height: 800px;
+    margin: 0 auto;
+ }
+
+ .main_block div{
+    line-height:50px ;
+   font-weight: bold;
+   font-size:15px ;
+   text-align: center;
+   width: 33%;
+ }
+
+ .block_1{
+   background-color: antiquewhite; 
+   float:left ;
+ }
+
+  .block_2{
+   background-color: coral ;
+  float:left ;
+
+  
+ }
+
+ .block_3{
+   background-color: lawngreen ; 
+   position: relative;
+   z-index: 100;
+   float:left ;
+ }
